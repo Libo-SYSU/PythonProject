@@ -1,6 +1,6 @@
 import datetime, math
-from jdbc.Convert_strTo_time_then_str import Convert_strTo_time_then_str
-from jdbc.holiday import holiday
+from Convert_strTo_time_then_str import Convert_strTo_time_then_str
+from holiday import holiday
 
 
 # 用于旅行时间计算Travel_time.py生成起始时间和终止时间
@@ -75,7 +75,7 @@ def Start_Time_List(start_time, end_time):
 
 
 if __name__ == '__main__':
-    start_time_list, end_time_list = Start_End_time_list('2019-11-04 15:30:00',14)
+    start_time_list, end_time_list = Start_End_time_list('2019-12-02 15:30:00', 26)
     print(start_time_list)
     print(end_time_list)
     # week_period = Week_Period('2019-05-01 00:00:00')
