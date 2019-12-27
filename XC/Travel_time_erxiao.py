@@ -117,7 +117,7 @@ if __name__ == '__main__':
         #                         start_time_list[i],
         #                         end_time_list[i])  # 起：F022；终：HK-89。跑该子段时取消注释
 
-        # # 下面是不包含路中卡口的路段2个方向
+        # # 下面是不包含路中卡口的路段2个方向.
         # query_res = plate_match(conn, ['HK-1931', 'HK-89'], [('1', '2', '3'), ('7','8','9','10','11')], start_time_list[i],
         #                         end_time_list[i])   # 起：HK-89；终：HK-1931。跑该子段时取消注释
 
