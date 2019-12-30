@@ -1,3 +1,5 @@
+import sys
+sys.path.append('D:\\PythonProject\\XC\\jdbc')
 from jdbc.Connect import get_connection, free
 import datetime
 import pandas as pd

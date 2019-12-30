@@ -1,5 +1,5 @@
 import sys
-sys.path.append('.')
+sys.path.append('D:\\PythonProject\\XC\\jdbc')
 from jdbc.Connect import get_connection, free
 import datetime
 import pandas as pd
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     # result = dataframe_Tolist(query_res)
     # Insert_db(conn, result)
     ## 跑批量数据用的
-    start_time_list, end_time_list = Start_End_time_list('2019-12-02 15:30:00', 26)
+    start_time_list, end_time_list = Start_End_time_list('2019-12-02 15:30:00', 28)
     for i in range(len(start_time_list)):
         conn = None
 
